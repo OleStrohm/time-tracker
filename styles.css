@@ -6,3 +6,16 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+
+.monospace {
+	white-space: pre;
+	font-family: monospace, monospace;
+}
+
+.time-header {
+	background-color: #777777;
+}
+
+.red {
+	background-color: #FF0000;
+}
