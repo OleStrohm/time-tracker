@@ -10,6 +10,10 @@ If your plugin does not need CSS, delete this file.
 .monospace {
 	white-space: pre;
 	font-family: monospace, monospace;
+	margin: 0px;
+	padding: 0px;
+	font-size: var(--font-text-size);
+	line-height: calc(var(--font-text-size) + 3px);
 }
 
 .time-header {
